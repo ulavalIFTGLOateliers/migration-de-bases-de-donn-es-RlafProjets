@@ -6,6 +6,7 @@ ALTER TABLE musician ADD COLUMN bandName varchar(50);
 
 ALTER TABLE musician RENAME COLUMN singerName TO musicianName;
 
+
 UPDATE musician
 SET role = 'vocals', bandName = 'Crazy Duo'
 WHERE musicianName = 'Alina';
